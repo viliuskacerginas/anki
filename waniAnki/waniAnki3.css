@@ -1,0 +1,94 @@
+.kanjiInfo {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+  background-color: #121212;
+  padding: 10px;
+  color: #fff;
+}
+
+.kanji-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.kanji-card {
+  flex: 0 0 calc(25% - 10px);
+  min-width: 160px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.kanji-char {
+  font-size: 24px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.kanji-meaning {
+  font-size: 12px;
+  text-align: center;
+  padding: 3px 0;
+  margin-bottom: 5px;
+}
+
+.kanji-readings {
+  font-size: 10px;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.slug {
+  background-color: #f100a1;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-weight: bold;
+}
+
+.meaning {
+  color: #a8ffb0;
+  font-weight: 600;
+}
+
+.jlpt {
+  background-color: #447a48;
+  border-radius: 4px;
+  padding: 0px 4px;
+  color: #fff;
+  font-size: 9px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .kanji-card {
+    flex: 0 0 calc(33.33% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .kanji-card {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+@media (max-width: 320px) {
+  .kanji-card {
+    flex: 0 0 100%;
+  }
+}
