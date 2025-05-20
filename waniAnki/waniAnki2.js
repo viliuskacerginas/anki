@@ -150,8 +150,8 @@ async function createKanji(data,jsKanji,allRadicals){
 	const kunR = document.createElement('p');
 	var onyomi = "";
 	var kunyomi = "";
-	on.innerHTML = "<p><strong>On’yomi:</strong></p>";
-	kun.innerHTML = "<p><strong>Kun’yomi:</strong></p>";
+	on.innerHTML = "<p><strong>Kun’yomi:</strong></p>";
+	kun.innerHTML = "<p><strong>On’yomi:</strong></p>";
 	
 	//This is for NON-WK Kanji
 	if(data.characters === 'NOPE'){
