@@ -68,7 +68,7 @@ kanjiBreakdown();
 async function kanjiBreakdown() {
   var jsKanji = await localJSON("kanji");
   kanji = kanji.replace(
-    /([ぁ-ゟ]+|[゠-ヿ]+|[!-~]+|[々〆〤「」]+|[！-￮]+|[\s*])/g,
+    /([ぁ-ゟ]+|[゠-ヿ]+|[!-~…、〜“”]+|[々〆〤「」]+|[！-￮]+|[\s*])/g,
     ""
   );
   kanjiArr = kanji.split("");
