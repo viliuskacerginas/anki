@@ -10,7 +10,7 @@
 .kanji-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .slug {
-  background-color: #f100a1;
+  background-color: #000;
   border-radius: 6px;
   padding: 3px 8px;
   font-weight: bold;
@@ -71,7 +71,7 @@
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #49a7de;
 }
 
 /* Responsive adjustments */
