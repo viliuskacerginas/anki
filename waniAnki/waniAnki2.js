@@ -93,7 +93,7 @@ async function kanjiBreakdown(){
  */ 
 async function localJSON(end){
 	var js = "";
-	await $.getJSON("https://damiansh.github.io/json/japanese/" + end + ".json", function(json) {
+	await $.getJSON("https://viliuskacerginas.github.io/anki/json/japanese/" + end + ".json", function(json) {
 		js = json;
 	});			
 	return js;
