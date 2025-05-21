@@ -86,7 +86,7 @@ a {
   }
 }
 
-@media (max-width: 480px) {
+/*###@media (max-width: 480px) {
   .kanji-card {
     flex: 0 0 calc(50% - 10px);
   }
@@ -97,3 +97,4 @@ a {
     flex: 0 0 100%;
   }
 }
+###*/
