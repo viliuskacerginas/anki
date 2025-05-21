@@ -75,6 +75,10 @@ a {
   color: #49a7de;
 }
 
+.nematomas {
+  display: none;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .kanji-card {
