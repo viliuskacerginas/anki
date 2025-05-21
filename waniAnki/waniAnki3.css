@@ -1,7 +1,7 @@
 .kanjiInfo {
   display: block;
   margin: auto;
-  max-width: 900px;
+  max-width: 1900px;
   background-color: #2c2c2c;
   padding: 10px;
   color: #8fda97;
@@ -15,7 +15,7 @@
 }
 
 .kanji-card {
-  flex: 0 0 calc(25% - 10px);
+  flex: 0 0 calc(0% - 10px);
   min-width: 160px;
   background-color: #2c2c2c;
   border-radius: 8px;
